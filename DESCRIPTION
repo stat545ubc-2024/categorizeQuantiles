@@ -1,0 +1,17 @@
+Package: categorizeQuantiles
+Title: Categorize a Numeric Variable into Quantile-Based Categories
+Version: 0.1.0
+Authors@R: 
+    person("Ting", "Xu", , "xuwt@student.ubc.ca", role = c("aut", "cre"))
+Description: The goal of categorizeQuantiles is to provide tools for categorizing numeric variables in data frames or tibbles into quantile-based categories. This is especially useful for grouping continuous data into discrete categories based on quantiles, making it easier to analyze and visualize patterns within categorical groups.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+  dplyr,
+  palmerpenguins,
+  tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
